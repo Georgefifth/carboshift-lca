@@ -1,6 +1,6 @@
-# QA Execution Report — 2026-10-31T11:36:00.605Z
+# QA Execution Report — 2026-10-31T11:37:04.768Z
 
-- **Base URL**: http://localhost:5199
+- **Base URL**: https://green-shift-hacks.vercel.app
 - **Browser**: chromium (headless)
 - **Scenarios Executed**: 12
 - **Passed**: 12
@@ -8,18 +8,18 @@
 
 | Viewport | Scenario ID | Status | Duration (ms) | Notes / Detail |
 |---|---|---|---|---|
-| desktop | smoke | ✅ PASS | 903 | All assertions passed |
-| desktop | core-flow | ✅ PASS | 994 | All assertions passed |
-| desktop | scenario-presets | ✅ PASS | 1653 | All assertions passed |
-| desktop | tabs-deepdive | ✅ PASS | 1922 | All assertions passed |
-| desktop | scientific-audit | ✅ PASS | 1471 | All assertions passed |
-| desktop | units-toggle | ✅ PASS | 1207 | All assertions passed |
-| mobile | smoke | ✅ PASS | 941 | All assertions passed |
-| mobile | core-flow | ✅ PASS | 1041 | All assertions passed |
-| mobile | scenario-presets | ✅ PASS | 1733 | All assertions passed |
-| mobile | tabs-deepdive | ✅ PASS | 2056 | All assertions passed |
-| mobile | scientific-audit | ✅ PASS | 1530 | All assertions passed |
-| mobile | units-toggle | ✅ PASS | 1238 | All assertions passed |
+| desktop | smoke | ✅ PASS | 1910 | All assertions passed |
+| desktop | core-flow | ✅ PASS | 1288 | All assertions passed |
+| desktop | scenario-presets | ✅ PASS | 1712 | All assertions passed |
+| desktop | tabs-deepdive | ✅ PASS | 2222 | All assertions passed |
+| desktop | scientific-audit | ✅ PASS | 1570 | All assertions passed |
+| desktop | units-toggle | ✅ PASS | 1482 | All assertions passed |
+| mobile | smoke | ✅ PASS | 961 | All assertions passed |
+| mobile | core-flow | ✅ PASS | 1083 | All assertions passed |
+| mobile | scenario-presets | ✅ PASS | 1823 | All assertions passed |
+| mobile | tabs-deepdive | ✅ PASS | 2117 | All assertions passed |
+| mobile | scientific-audit | ✅ PASS | 1540 | All assertions passed |
+| mobile | units-toggle | ✅ PASS | 1270 | All assertions passed |
 
 ## Captured Evidence Screenshots
 
