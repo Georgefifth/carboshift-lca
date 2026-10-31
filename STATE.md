@@ -1,9 +1,9 @@
 # State
 
-- stage: 2
+- stage: 3
 - title: CarboShift LCA — Truth-in-Lifecycle Vehicle Replacement & Breakeven Engine
 - theme: CarboShift LCA (Truth-in-Lifecycle Vehicle Replacement & Breakeven Engine)
-- acceptance: Stage 1 complete; theme confirmed by user. Entering Stage 2 (Build & UX Contract & Architecture).
-- evidence: evidence/stage-1-research.md
+- acceptance: Stage 2 build, UX contract, unit tests, and production deployment verified on Vercel. Entering Stage 3 (QA).
+- evidence: evidence/stage-1-research.md, evidence/stage-2-build.md
 - blockers: none
-- updated: 2026-10-31 19:30
+- updated: 2026-10-31 19:40

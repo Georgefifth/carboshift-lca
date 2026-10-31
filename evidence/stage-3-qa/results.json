@@ -1,0 +1,178 @@
+{
+  "base": "http://localhost:5199",
+  "browser": "chromium",
+  "headed": false,
+  "startedAt": "2026-10-31T11:35:43.735Z",
+  "finishedAt": "2026-10-31T11:36:00.605Z",
+  "summary": {
+    "total": 12,
+    "pass": 12,
+    "fail": 0
+  },
+  "results": [
+    {
+      "viewport": "desktop",
+      "id": "smoke",
+      "title": "Landing page renders cleanly without horizontal overflow",
+      "status": "pass",
+      "ms": 903,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/smoke-landing-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "core-flow",
+      "title": "Configure vehicles, adjust grid, and assert reactive breakeven calculation",
+      "status": "pass",
+      "ms": 994,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/core-flow-configured-f150-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "scenario-presets",
+      "title": "Switch between benchmark preset scenarios",
+      "status": "pass",
+      "ms": 1653,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/scenario-presets-preset-miso-coal-desktop.png",
+        "evidence/stage-3-qa/screens/scenario-presets-preset-clean-hydro-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "tabs-deepdive",
+      "title": "Navigate across Lifecycle Waterfall and TCO Economics views",
+      "status": "pass",
+      "ms": 1922,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/tabs-deepdive-tab-waterfall-desktop.png",
+        "evidence/stage-3-qa/screens/tabs-deepdive-tab-economics-desktop.png",
+        "evidence/stage-3-qa/screens/tabs-deepdive-tab-crossover-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "scientific-audit",
+      "title": "Open and inspect the Scientific Audit & Methodology modal",
+      "status": "pass",
+      "ms": 1471,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/scientific-audit-modal-audit-open-desktop.png",
+        "evidence/stage-3-qa/screens/scientific-audit-modal-closed-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "units-toggle",
+      "title": "Toggle between Imperial (mi/gal) and Metric (km/L)",
+      "status": "pass",
+      "ms": 1207,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/units-toggle-metric-units-desktop.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "smoke",
+      "title": "Landing page renders cleanly without horizontal overflow",
+      "status": "pass",
+      "ms": 941,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/smoke-landing-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "core-flow",
+      "title": "Configure vehicles, adjust grid, and assert reactive breakeven calculation",
+      "status": "pass",
+      "ms": 1041,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/core-flow-configured-f150-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "scenario-presets",
+      "title": "Switch between benchmark preset scenarios",
+      "status": "pass",
+      "ms": 1733,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/scenario-presets-preset-miso-coal-mobile.png",
+        "evidence/stage-3-qa/screens/scenario-presets-preset-clean-hydro-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "tabs-deepdive",
+      "title": "Navigate across Lifecycle Waterfall and TCO Economics views",
+      "status": "pass",
+      "ms": 2056,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/tabs-deepdive-tab-waterfall-mobile.png",
+        "evidence/stage-3-qa/screens/tabs-deepdive-tab-economics-mobile.png",
+        "evidence/stage-3-qa/screens/tabs-deepdive-tab-crossover-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "scientific-audit",
+      "title": "Open and inspect the Scientific Audit & Methodology modal",
+      "status": "pass",
+      "ms": 1530,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/scientific-audit-modal-audit-open-mobile.png",
+        "evidence/stage-3-qa/screens/scientific-audit-modal-closed-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "units-toggle",
+      "title": "Toggle between Imperial (mi/gal) and Metric (km/L)",
+      "status": "pass",
+      "ms": 1238,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/units-toggle-metric-units-mobile.png"
+      ]
+    }
+  ]
+}
