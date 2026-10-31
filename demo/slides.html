@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CarboShift Architecture Slides</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0B0F17;
+      color: #F8FAFC;
+      font-family: 'Inter', sans-serif;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 60px 80px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-b: 1px solid #1F293D;
+      padding-bottom: 24px;
+    }
+    .badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: #10B981;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 6px 16px;
+      border-radius: 4px;
+    }
+    .title {
+      font-size: 44px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #F8FAFC;
+    }
+    .subtitle {
+      font-size: 20px;
+      color: #94A3B8;
+      font-family: 'JetBrains Mono', monospace;
+      margin-top: 6px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin: 40px 0;
+    }
+    .card {
+      background: #131B2A;
+      border: 1px solid #1F293D;
+      border-radius: 8px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card.accent {
+      border-color: rgba(16, 185, 129, 0.4);
+      background: #162033;
+    }
+    .card-step {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 14px;
+      color: #94A3B8;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      display: flex;
+      justify-content: space-between;
+    }
+    .card-title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #F8FAFC;
+      margin: 16px 0 8px;
+    }
+    .card-formula {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 15px;
+      background: #0B0F17;
+      padding: 12px;
+      border-radius: 4px;
+      border: 1px solid #1F293D;
+      color: #10B981;
+      margin: 12px 0;
+    }
+    .card-desc {
+      font-size: 15px;
+      color: #94A3B8;
+      line-height: 1.5;
+    }
+    .solver-box {
+      background: #131B2A;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: 8px;
+      padding: 24px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .solver-formula {
+      font-size: 22px;
+      font-weight: 700;
+      color: #10B981;
+    }
+    .solver-desc {
+      font-size: 15px;
+      color: #94A3B8;
+      max-width: 800px;
+      line-height: 1.4;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 14px;
+      color: #64748B;
+      border-t: 1px solid #1F293D;
+      padding-top: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div>
+      <h1 class="title">Cradle-to-Grave System Architecture</h1>
+      <p class="subtitle">Argonne National Laboratory GREET 2024 & US EPA eGRID Formulation</p>
+    </div>
+    <div class="badge">Scientific Boundary</div>
+  </div>
+
+  <div class="grid">
+    <!-- Step 1 -->
+    <div class="card">
+      <div>
+        <div class="card-step">
+          <span>Phase 01</span>
+          <span style="color: #94A3B8;">Sunk Capital</span>
+        </div>
+        <h2 class="card-title">Glider Assembly</h2>
+        <div class="card-formula">M_glider = W × 5.6 kg/kg</div>
+        <p class="card-desc">
+          Body-in-white steel & aluminum stamping. For incumbent cars, M_glider is strictly 0 kg (already manufactured).
+        </p>
+      </div>
+      <div style="font-family: 'JetBrains Mono'; font-size: 13px; color: #64748B; margin-top: 16px;">
+        GREET Vehicle Cycle
+      </div>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="card accent">
+      <div>
+        <div class="card-step">
+          <span>Phase 02</span>
+          <span style="color: #F59E0B;">The Carbon Debt</span>
+        </div>
+        <h2 class="card-title">Battery Pack Mfg</h2>
+        <div class="card-formula" style="color: #F59E0B;">M_batt = kWh × ChemFactor</div>
+        <p class="card-desc">
+          Lithium, nickel, cobalt mining & cell refining. LFP: 68 kg/kWh; NMC: 88 kg/kWh. Creates upfront 8-15t debt.
+        </p>
+      </div>
+      <div style="font-family: 'JetBrains Mono'; font-size: 13px; color: #F59E0B; margin-top: 16px;">
+        ANL Battery Chemistry Spec
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="card">
+      <div>
+        <div class="card-step">
+          <span>Phase 03</span>
+          <span style="color: #38BDF8;">Grid / Refinery</span>
+        </div>
+        <h2 class="card-title">Energy Supply Chain</h2>
+        <div class="card-formula" style="color: #38BDF8;">e_elec = (I_grid × 1.052) / η</div>
+        <p class="card-desc">
+          Subregional eGRID factors (CAMX 215, MISO 560, NWPP 112 g/kWh) plus 5.2% transmission & distribution loss.
+        </p>
+      </div>
+      <div style="font-family: 'JetBrains Mono'; font-size: 13px; color: #64748B; margin-top: 16px;">
+        EPA eGRID 2024 Release
+      </div>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="card">
+      <div>
+        <div class="card-step">
+          <span>Phase 04</span>
+          <span style="color: #EF4444;">Tailpipe Burn</span>
+        </div>
+        <h2 class="card-title">Gasoline Combustion</h2>
+        <div class="card-formula" style="color: #EF4444;">11,267 g CO₂e / gallon</div>
+        <p class="card-desc">
+          EPA direct tailpipe (8,887 g) + Well-to-Pump upstream oil refinery & transport penalty (2,380 g/gal).
+        </p>
+      </div>
+      <div style="font-family: 'JetBrains Mono'; font-size: 13px; color: #64748B; margin-top: 16px;">
+        EPA Title 40 CFR Part 600
+      </div>
+    </div>
+  </div>
+
+  <div class="solver-box">
+    <div>
+      <div class="solver-formula">Breakeven Miles: m* = ΔM_embodied / (e_incumbent - e_candidate)</div>
+      <div style="color: #64748B; font-size: 13px; margin-top: 4px;">Dynamic Breakeven Solver · Solved client-side in under 5ms</div>
+    </div>
+    <div class="solver-desc">
+      Pinpoints the exact month and odometer mileage where cumulative operational savings overcome initial factory battery debt.
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>CarboShift LCA · Green Shift Hacks 2026</span>
+    <span>https://green-shift-hacks.vercel.app</span>
+    <span>github.com/Georgefifth/carboshift-lca</span>
+  </div>
+</body>
+</html>

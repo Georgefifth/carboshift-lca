@@ -36,3 +36,8 @@ pnpm-debug.log*
 lerna-debug.log*
 .vercel
 .env*
+
+# Demo recorder intermediate work files
+evidence/stage-4-demo/demo.work/
+evidence/stage-4-demo/raw/
+

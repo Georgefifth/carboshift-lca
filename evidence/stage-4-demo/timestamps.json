@@ -1,0 +1,113 @@
+[
+  {
+    "idx": 0,
+    "name": "01-cover",
+    "file": "/home/yap/Hack/green-shift-hacks/evidence/stage-4-demo/raw/scene-00.webm",
+    "wallMs": 13027,
+    "focus": []
+  },
+  {
+    "idx": 1,
+    "name": "02-architecture",
+    "file": "/home/yap/Hack/green-shift-hacks/evidence/stage-4-demo/raw/scene-01.webm",
+    "wallMs": 10974,
+    "focus": []
+  },
+  {
+    "idx": 2,
+    "name": "03-live-suburban",
+    "session": "app",
+    "focus": [
+      {
+        "t": 0.76,
+        "x": 337,
+        "y": 49
+      }
+    ],
+    "file": "/home/yap/Hack/green-shift-hacks/evidence/stage-4-demo/raw/session-app.webm",
+    "range": [
+      0,
+      4.47
+    ]
+  },
+  {
+    "idx": 3,
+    "name": "04-live-truck-trade",
+    "session": "app",
+    "focus": [
+      {
+        "t": 0.42,
+        "x": 1078,
+        "y": 124
+      }
+    ],
+    "file": "/home/yap/Hack/green-shift-hacks/evidence/stage-4-demo/raw/session-app.webm",
+    "range": [
+      4.47,
+      9.53
+    ]
+  },
+  {
+    "idx": 4,
+    "name": "05-live-coal-stress",
+    "session": "app",
+    "focus": [
+      {
+        "t": 0.42,
+        "x": 1287,
+        "y": 124
+      }
+    ],
+    "file": "/home/yap/Hack/green-shift-hacks/evidence/stage-4-demo/raw/session-app.webm",
+    "range": [
+      9.53,
+      14.6
+    ]
+  },
+  {
+    "idx": 5,
+    "name": "06-live-waterfall",
+    "session": "app",
+    "focus": [
+      {
+        "t": 0.42,
+        "x": 1162,
+        "y": 314
+      }
+    ],
+    "file": "/home/yap/Hack/green-shift-hacks/evidence/stage-4-demo/raw/session-app.webm",
+    "range": [
+      14.6,
+      19.15
+    ]
+  },
+  {
+    "idx": 6,
+    "name": "07-live-audit-modal",
+    "session": "app",
+    "focus": [
+      {
+        "t": 0.42,
+        "x": 923,
+        "y": 68
+      },
+      {
+        "t": 3.47,
+        "x": 1223,
+        "y": 930
+      }
+    ],
+    "file": "/home/yap/Hack/green-shift-hacks/evidence/stage-4-demo/raw/session-app.webm",
+    "range": [
+      19.15,
+      24.68
+    ]
+  },
+  {
+    "idx": 7,
+    "name": "08-closing-card",
+    "file": "/home/yap/Hack/green-shift-hacks/evidence/stage-4-demo/raw/scene-07.webm",
+    "wallMs": 9764,
+    "focus": []
+  }
+]
